@@ -4,6 +4,9 @@ class StoreAdminController < ApplicationController
     render :layout => "orders"
   end
 
+  def home
+  end
+  
   def invoice
   end
 end
